@@ -1,0 +1,14 @@
+name: "SampleCaffeModel"
+layer {
+  name: "data"
+  type: "input"
+  top: "data"
+  input_param {
+    shape {
+      dim: 1
+      dim: 3
+      dim: 451
+      dim: 451
+    }
+  }
+}
